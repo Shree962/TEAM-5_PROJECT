@@ -52,7 +52,11 @@
 <body>
 
 
+<<<<<<< HEAD
+   <h1>BCom Weekly Study Timetable</h1>
+=======
   <h1>BCom Weekly Study Timetable</h1>
+>>>>>>> B4
 
    <table>
     <tr>
@@ -156,6 +160,8 @@
   </table>
 
 
+<<<<<<< HEAD
+=======
   <div class="tracker">
     <h2>Edu Tracker</h2>
     <div class="day-section"><strong>Monday:</strong>
@@ -233,5 +239,6 @@
   </div>
 
 
+>>>>>>> B4
 </body>
 </html>
