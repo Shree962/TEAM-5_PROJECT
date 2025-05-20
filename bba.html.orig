@@ -80,8 +80,11 @@
     <tr><td>Friday</td><td>Financial Accounting</td><td>Entrepreneurship</td></tr>
     <tr><td>Saturday</td><td>Business Ethics</td><td>Digital Marketing</td></tr>
     <tr><td>Sunday</td><td>Project Work</td><td>Revision/Relaxation</td></tr>
+<<<<<<< HEAD
+=======
     </table>
 
+>>>>>>> B2
     <div class="tracker">
     <h2>Edu Tracker</h2>
     <div class="day-section"><strong>Monday:</strong>
