@@ -23,8 +23,9 @@ EduTracker allows students to:
 
 Files Created
 
-> bba.html - EDU Tracker for bba students
-> bcom.html - EDU Tracker for bcom students
+- bba.html - EDU Tracker for bba students 
+
+- bcom.html - EDU Tracker for bcom students
 
 ---
 
