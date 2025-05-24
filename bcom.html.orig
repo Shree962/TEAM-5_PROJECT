@@ -54,6 +54,7 @@
 
   <h1>BCom Weekly Study Timetable</h1>
 
+
    <table>
     <tr>
       <th>Day</th>
@@ -231,7 +232,6 @@
       </select>
     </div>
   </div>
-
 
 </body>
 </html>
