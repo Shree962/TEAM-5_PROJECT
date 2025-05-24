@@ -1,0 +1,237 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BCom Study Timetable with tracker</title>
+  <style>
+    body {
+      background: url("https://wallpaperaccess.com/full/1378083.jpg");
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: slateblue;
+    }
+    h2 {
+      text-align: center;
+      color: slateblue;
+    }
+    table {
+      width: 80%;
+      margin: 0 auto;
+      border-collapse: collapse;
+      background-color: rgba(255, 255, 255, 0.7); 
+      border-radius: 10px;
+    }
+    th, td {
+      border: 1px solid grey;
+      padding: 12px;
+      text-align: center;
+      border: 1px solid blue;
+    }
+    th {
+      background-color: rgba(255, 255, 255, 0.8);
+      color: black;
+    }
+    .tracker {
+      width: 80%;
+      margin: 20px auto;
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 15px;
+      border: 1px solid blue;
+      border-radius: 10px;
+    }
+    .day-section {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+
+  <h1>BCom Weekly Study Timetable</h1>
+
+
+   <table>
+    <tr>
+      <th>Day</th>
+      <th>5 AM – 7 AM (Subject 1)</th>
+      <th>7 PM – 9 PM (Subject 2)</th>
+    </tr>
+    <tr>
+      <td>Monday</td>
+      <td>Financial Accounting</td>
+      <td>
+        <select>
+          <option>Business Law</option>
+          <option>Economics</option>
+          <option>Business Communication</option>
+          <option>Marketing Management</option>
+          <option>Cost Accounting</option>
+          <option>Corporate Law</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>Economics</td>
+      <td>
+        <select>
+          <option>Business Law</option>
+          <option>Business Communication</option>
+          <option>Marketing Management</option>
+          <option>Human Resource Management</option>
+          <option>Entrepreneurship</option>
+          <option>Cost Accounting</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td>Marketing Management</td>
+      <td>
+        <select>
+          <option>Business Law</option>
+          <option>Business Communication</option>
+          <option>Human Resource Management</option>
+          <option>Organizational Behavior</option>
+          <option>Corporate Law</option>
+          <option>Entrepreneurship</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Thursday</td>
+      <td>Business Environment</td>
+      <td>
+        <select>
+          <option>Organizational Behavior</option>
+          <option>Business Ethics</option>
+          <option>Cost Accounting</option>
+          <option>Corporate Law</option>
+          <option>Entrepreneurship</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Friday</td>
+      <td>Business Ethics</td>
+      <td>
+        <select>
+          <option>Cost Accounting</option>
+          <option>Corporate Law</option>
+          <option>Entrepreneurship</option>
+          <option>Economics</option>
+          <option>Human Resource Management</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Saturday</td>
+      <td>Corporate Law</td>
+      <td>
+        <select>
+          <option>Entrepreneurship</option>
+          <option>Project Work</option>
+          <option>Cost Accounting</option>
+          <option>Marketing Management</option>
+          <option>Business Communication</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Sunday</td>
+      <td>Project Work</td>
+      <td>
+        <select>
+          <option>Revision/Relaxation</option>
+          <option>Entrepreneurship</option>
+          <option>Business Ethics</option>
+          <option>Corporate Law</option>
+        </select>
+      </td>
+    </tr>
+  </table>
+
+
+  <div class="tracker">
+    <h2>Edu Tracker</h2>
+    <div class="day-section"><strong>Monday:</strong>
+      <input type="checkbox"> Financial Accounting 
+      <select>
+        <option>Business Law</option>
+        <option>Economics</option>
+        <option>Business Communication</option>
+        <option>Marketing Management</option>
+        <option>Cost Accounting</option>
+        <option>Corporate Law</option>
+      </select>
+    </div>
+    <div class="day-section"><strong>Tuesday:</strong>
+      <input type="checkbox"> Economics 
+      <select>
+        <option>Business Law</option>
+        <option>Business Communication</option>
+        <option>Marketing Management</option>
+        <option>Human Resource Management</option>
+        <option>Entrepreneurship</option>
+        <option>Cost Accounting</option>
+      </select>
+    </div>
+    <div class="day-section"><strong>Wednesday:</strong>
+      <input type="checkbox"> Marketing Management 
+      <select>
+        <option>Business Law</option>
+        <option>Business Communication</option>
+        <option>Human Resource Management</option>
+        <option>Organizational Behavior</option>
+        <option>Corporate Law</option>
+        <option>Entrepreneurship</option>
+      </select>
+    </div>
+    <div class="day-section"><strong>Thursday:</strong>
+      <input type="checkbox"> Business Environment 
+      <select>
+        <option>Organizational Behavior</option>
+        <option>Business Ethics</option>
+        <option>Cost Accounting</option>
+        <option>Corporate Law</option>
+        <option>Entrepreneurship</option>
+      </select>
+    </div>
+    <div class="day-section"><strong>Friday:</strong>
+      <input type="checkbox"> Business Ethics 
+      <select>
+        <option>Cost Accounting</option>
+        <option>Corporate Law</option>
+        <option>Entrepreneurship</option>
+        <option>Economics</option>
+        <option>Human Resource Management</option>
+      </select>
+    </div>
+    <div class="day-section"><strong>Saturday:</strong>
+      <input type="checkbox"> Corporate Law 
+      <select>
+        <option>Entrepreneurship</option>
+        <option>Project Work</option>
+        <option>Cost Accounting</option>
+        <option>Marketing Management</option>
+        <option>Business Communication</option>
+      </select>
+    </div>
+    <div class="day-section"><strong>Sunday:</strong>
+      <input type="checkbox"> Project Work 
+      <select>
+        <option>Revision/Relaxation</option>
+        <option>Entrepreneurship</option>
+        <option>Business Ethics</option>
+        <option>Corporate Law</option>
+      </select>
+    </div>
+  </div>
+
+</body>
+</html>
